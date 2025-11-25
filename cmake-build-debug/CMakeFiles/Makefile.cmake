@@ -83,4 +83,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ordena_alunos.dir/DependInfo.cmake"
   "CMakeFiles/busca_iterador.dir/DependInfo.cmake"
   "CMakeFiles/busca_profunda.dir/DependInfo.cmake"
+  "CMakeFiles/testes.dir/DependInfo.cmake"
   )

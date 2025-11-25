@@ -493,6 +493,19 @@ busca_profunda/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_profunda.dir/build.make CMakeFiles/busca_profunda.dir/build
 .PHONY : busca_profunda/fast
 
+#=============================================================================
+# Target rules for targets named testes
+
+# Build rule for target.
+testes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testes
+.PHONY : testes
+
+# fast build rule for target.
+testes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/build
+.PHONY : testes/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -588,6 +601,30 @@ maratonaIF2025/estudosC++/ordena_alunos.s: maratonaIF2025/estudosC++/ordena_alun
 maratonaIF2025/estudosC++/ordena_alunos.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordena_alunos.dir/build.make CMakeFiles/ordena_alunos.dir/maratonaIF2025/estudosC++/ordena_alunos.cpp.s
 .PHONY : maratonaIF2025/estudosC++/ordena_alunos.cpp.s
+
+maratonaIF2025/estudosC++/testes.o: maratonaIF2025/estudosC++/testes.cpp.o
+.PHONY : maratonaIF2025/estudosC++/testes.o
+
+# target to build an object file
+maratonaIF2025/estudosC++/testes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/maratonaIF2025/estudosC++/testes.cpp.o
+.PHONY : maratonaIF2025/estudosC++/testes.cpp.o
+
+maratonaIF2025/estudosC++/testes.i: maratonaIF2025/estudosC++/testes.cpp.i
+.PHONY : maratonaIF2025/estudosC++/testes.i
+
+# target to preprocess a source file
+maratonaIF2025/estudosC++/testes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/maratonaIF2025/estudosC++/testes.cpp.i
+.PHONY : maratonaIF2025/estudosC++/testes.cpp.i
+
+maratonaIF2025/estudosC++/testes.s: maratonaIF2025/estudosC++/testes.cpp.s
+.PHONY : maratonaIF2025/estudosC++/testes.s
+
+# target to generate assembly for a file
+maratonaIF2025/estudosC++/testes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/maratonaIF2025/estudosC++/testes.cpp.s
+.PHONY : maratonaIF2025/estudosC++/testes.cpp.s
 
 obi2024/Semana1/figurinhas-otimizado.o: obi2024/Semana1/figurinhas-otimizado.cpp.o
 .PHONY : obi2024/Semana1/figurinhas-otimizado.o
@@ -1218,6 +1255,7 @@ help:
 	@echo "... segredo-cofre"
 	@echo "... tempo"
 	@echo "... tempoH"
+	@echo "... testes"
 	@echo "... tita"
 	@echo "... torneio"
 	@echo "... torneioH"
@@ -1238,6 +1276,9 @@ help:
 	@echo "... maratonaIF2025/estudosC++/ordena_alunos.o"
 	@echo "... maratonaIF2025/estudosC++/ordena_alunos.i"
 	@echo "... maratonaIF2025/estudosC++/ordena_alunos.s"
+	@echo "... maratonaIF2025/estudosC++/testes.o"
+	@echo "... maratonaIF2025/estudosC++/testes.i"
+	@echo "... maratonaIF2025/estudosC++/testes.s"
 	@echo "... obi2024/Semana1/figurinhas-otimizado.o"
 	@echo "... obi2024/Semana1/figurinhas-otimizado.i"
 	@echo "... obi2024/Semana1/figurinhas-otimizado.s"

@@ -43,7 +43,8 @@
 						25,
 						26,
 						27,
-						28
+						28,
+						29
 					]
 				}
 			],
@@ -86,7 +87,8 @@
 						25,
 						26,
 						27,
-						28
+						28,
+						29
 					]
 				}
 			],
@@ -237,6 +239,13 @@
 					"id" : "tempoH::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-tempoH-Debug-8c7c9e0f24307c482d7e.json",
 					"name" : "tempoH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testes-Debug-5a0e3e2f0ac735a7f27a.json",
+					"name" : "testes",
 					"projectIndex" : 0
 				},
 				{

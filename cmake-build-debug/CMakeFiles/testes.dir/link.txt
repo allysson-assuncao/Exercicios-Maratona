@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/testes.dir/link.d CMakeFiles/testes.dir/maratonaIF2025/estudosC++/testes.cpp.o -o testes
