@@ -81,4 +81,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/labirintos.dir/DependInfo.cmake"
   "CMakeFiles/vagoes.dir/DependInfo.cmake"
   "CMakeFiles/ordena_alunos.dir/DependInfo.cmake"
+  "CMakeFiles/busca_iterador.dir/DependInfo.cmake"
+  "CMakeFiles/busca_profunda.dir/DependInfo.cmake"
   )

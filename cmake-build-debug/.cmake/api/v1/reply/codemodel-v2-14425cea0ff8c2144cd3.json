@@ -41,7 +41,9 @@
 						23,
 						24,
 						25,
-						26
+						26,
+						27,
+						28
 					]
 				}
 			],
@@ -82,7 +84,9 @@
 						23,
 						24,
 						25,
-						26
+						26,
+						27,
+						28
 					]
 				}
 			],
@@ -100,6 +104,20 @@
 					"id" : "baralho::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-baralho-Debug-e52878c808f87dfacfe5.json",
 					"name" : "baralho",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "busca_iterador::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-busca_iterador-Debug-0127faaa129a34532c97.json",
+					"name" : "busca_iterador",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "busca_profunda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-busca_profunda-Debug-e6c5017eb7b61e15d9cf.json",
+					"name" : "busca_profunda",
 					"projectIndex" : 0
 				},
 				{

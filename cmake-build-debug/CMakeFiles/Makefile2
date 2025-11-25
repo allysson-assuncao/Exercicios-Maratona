@@ -90,6 +90,8 @@ all: CMakeFiles/cloud.dir/all
 all: CMakeFiles/labirintos.dir/all
 all: CMakeFiles/vagoes.dir/all
 all: CMakeFiles/ordena_alunos.dir/all
+all: CMakeFiles/busca_iterador.dir/all
+all: CMakeFiles/busca_profunda.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -120,6 +122,8 @@ codegen: CMakeFiles/cloud.dir/codegen
 codegen: CMakeFiles/labirintos.dir/codegen
 codegen: CMakeFiles/vagoes.dir/codegen
 codegen: CMakeFiles/ordena_alunos.dir/codegen
+codegen: CMakeFiles/busca_iterador.dir/codegen
+codegen: CMakeFiles/busca_profunda.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -154,6 +158,8 @@ clean: CMakeFiles/cloud.dir/clean
 clean: CMakeFiles/labirintos.dir/clean
 clean: CMakeFiles/vagoes.dir/clean
 clean: CMakeFiles/ordena_alunos.dir/clean
+clean: CMakeFiles/busca_iterador.dir/clean
+clean: CMakeFiles/busca_profunda.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -195,7 +201,7 @@ CMakeFiles/Exercicios_Maratona.dir/clean:
 CMakeFiles/figurinhas.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/figurinhas.dir/build.make CMakeFiles/figurinhas.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/figurinhas.dir/build.make CMakeFiles/figurinhas.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target figurinhas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target figurinhas"
 .PHONY : CMakeFiles/figurinhas.dir/all
 
 # Build rule for subdir invocation for target.
@@ -212,7 +218,7 @@ figurinhas: CMakeFiles/figurinhas.dir/rule
 # codegen rule for target.
 CMakeFiles/figurinhas.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/figurinhas.dir/build.make CMakeFiles/figurinhas.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=13,14 "Finished codegen for target figurinhas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=17,18 "Finished codegen for target figurinhas"
 .PHONY : CMakeFiles/figurinhas.dir/codegen
 
 # clean rule for target.
@@ -227,7 +233,7 @@ CMakeFiles/figurinhas.dir/clean:
 CMakeFiles/segredo-cofre.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segredo-cofre.dir/build.make CMakeFiles/segredo-cofre.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segredo-cofre.dir/build.make CMakeFiles/segredo-cofre.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target segredo-cofre"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target segredo-cofre"
 .PHONY : CMakeFiles/segredo-cofre.dir/all
 
 # Build rule for subdir invocation for target.
@@ -244,7 +250,7 @@ segredo-cofre: CMakeFiles/segredo-cofre.dir/rule
 # codegen rule for target.
 CMakeFiles/segredo-cofre.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segredo-cofre.dir/build.make CMakeFiles/segredo-cofre.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=33,34 "Finished codegen for target segredo-cofre"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=37,38 "Finished codegen for target segredo-cofre"
 .PHONY : CMakeFiles/segredo-cofre.dir/codegen
 
 # clean rule for target.
@@ -259,7 +265,7 @@ CMakeFiles/segredo-cofre.dir/clean:
 CMakeFiles/figurinhas-otimizado.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/figurinhas-otimizado.dir/build.make CMakeFiles/figurinhas-otimizado.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/figurinhas-otimizado.dir/build.make CMakeFiles/figurinhas-otimizado.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target figurinhas-otimizado"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target figurinhas-otimizado"
 .PHONY : CMakeFiles/figurinhas-otimizado.dir/all
 
 # Build rule for subdir invocation for target.
@@ -276,7 +282,7 @@ figurinhas-otimizado: CMakeFiles/figurinhas-otimizado.dir/rule
 # codegen rule for target.
 CMakeFiles/figurinhas-otimizado.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/figurinhas-otimizado.dir/build.make CMakeFiles/figurinhas-otimizado.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=15,16 "Finished codegen for target figurinhas-otimizado"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=19,20 "Finished codegen for target figurinhas-otimizado"
 .PHONY : CMakeFiles/figurinhas-otimizado.dir/codegen
 
 # clean rule for target.
@@ -291,7 +297,7 @@ CMakeFiles/figurinhas-otimizado.dir/clean:
 CMakeFiles/jogo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jogo.dir/build.make CMakeFiles/jogo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jogo.dir/build.make CMakeFiles/jogo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target jogo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target jogo"
 .PHONY : CMakeFiles/jogo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -308,7 +314,7 @@ jogo: CMakeFiles/jogo.dir/rule
 # codegen rule for target.
 CMakeFiles/jogo.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jogo.dir/build.make CMakeFiles/jogo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=17,18 "Finished codegen for target jogo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=21,22 "Finished codegen for target jogo"
 .PHONY : CMakeFiles/jogo.dir/codegen
 
 # clean rule for target.
@@ -323,7 +329,7 @@ CMakeFiles/jogo.dir/clean:
 CMakeFiles/nota.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nota.dir/build.make CMakeFiles/nota.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nota.dir/build.make CMakeFiles/nota.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target nota"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target nota"
 .PHONY : CMakeFiles/nota.dir/all
 
 # Build rule for subdir invocation for target.
@@ -340,7 +346,7 @@ nota: CMakeFiles/nota.dir/rule
 # codegen rule for target.
 CMakeFiles/nota.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nota.dir/build.make CMakeFiles/nota.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=23,24 "Finished codegen for target nota"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=27,28 "Finished codegen for target nota"
 .PHONY : CMakeFiles/nota.dir/codegen
 
 # clean rule for target.
@@ -355,7 +361,7 @@ CMakeFiles/nota.dir/clean:
 CMakeFiles/wifi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi.dir/build.make CMakeFiles/wifi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi.dir/build.make CMakeFiles/wifi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target wifi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target wifi"
 .PHONY : CMakeFiles/wifi.dir/all
 
 # Build rule for subdir invocation for target.
@@ -372,7 +378,7 @@ wifi: CMakeFiles/wifi.dir/rule
 # codegen rule for target.
 CMakeFiles/wifi.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi.dir/build.make CMakeFiles/wifi.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=49,50 "Finished codegen for target wifi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=53,54 "Finished codegen for target wifi"
 .PHONY : CMakeFiles/wifi.dir/codegen
 
 # clean rule for target.
@@ -387,7 +393,7 @@ CMakeFiles/wifi.dir/clean:
 CMakeFiles/visita.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/visita.dir/build.make CMakeFiles/visita.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/visita.dir/build.make CMakeFiles/visita.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target visita"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target visita"
 .PHONY : CMakeFiles/visita.dir/all
 
 # Build rule for subdir invocation for target.
@@ -404,7 +410,7 @@ visita: CMakeFiles/visita.dir/rule
 # codegen rule for target.
 CMakeFiles/visita.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/visita.dir/build.make CMakeFiles/visita.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=47,48 "Finished codegen for target visita"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=51,52 "Finished codegen for target visita"
 .PHONY : CMakeFiles/visita.dir/codegen
 
 # clean rule for target.
@@ -419,7 +425,7 @@ CMakeFiles/visita.dir/clean:
 CMakeFiles/chuvaH.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chuvaH.dir/build.make CMakeFiles/chuvaH.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chuvaH.dir/build.make CMakeFiles/chuvaH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target chuvaH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target chuvaH"
 .PHONY : CMakeFiles/chuvaH.dir/all
 
 # Build rule for subdir invocation for target.
@@ -436,7 +442,7 @@ chuvaH: CMakeFiles/chuvaH.dir/rule
 # codegen rule for target.
 CMakeFiles/chuvaH.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chuvaH.dir/build.make CMakeFiles/chuvaH.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=7,8 "Finished codegen for target chuvaH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=11,12 "Finished codegen for target chuvaH"
 .PHONY : CMakeFiles/chuvaH.dir/codegen
 
 # clean rule for target.
@@ -451,7 +457,7 @@ CMakeFiles/chuvaH.dir/clean:
 CMakeFiles/torneio.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/torneio.dir/build.make CMakeFiles/torneio.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/torneio.dir/build.make CMakeFiles/torneio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target torneio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target torneio"
 .PHONY : CMakeFiles/torneio.dir/all
 
 # Build rule for subdir invocation for target.
@@ -468,7 +474,7 @@ torneio: CMakeFiles/torneio.dir/rule
 # codegen rule for target.
 CMakeFiles/torneio.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/torneio.dir/build.make CMakeFiles/torneio.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=41,42 "Finished codegen for target torneio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=45,46 "Finished codegen for target torneio"
 .PHONY : CMakeFiles/torneio.dir/codegen
 
 # clean rule for target.
@@ -483,7 +489,7 @@ CMakeFiles/torneio.dir/clean:
 CMakeFiles/tempo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempo.dir/build.make CMakeFiles/tempo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempo.dir/build.make CMakeFiles/tempo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target tempo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target tempo"
 .PHONY : CMakeFiles/tempo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -500,7 +506,7 @@ tempo: CMakeFiles/tempo.dir/rule
 # codegen rule for target.
 CMakeFiles/tempo.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempo.dir/build.make CMakeFiles/tempo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=35,36 "Finished codegen for target tempo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=39,40 "Finished codegen for target tempo"
 .PHONY : CMakeFiles/tempo.dir/codegen
 
 # clean rule for target.
@@ -515,7 +521,7 @@ CMakeFiles/tempo.dir/clean:
 CMakeFiles/torneioH.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/torneioH.dir/build.make CMakeFiles/torneioH.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/torneioH.dir/build.make CMakeFiles/torneioH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target torneioH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target torneioH"
 .PHONY : CMakeFiles/torneioH.dir/all
 
 # Build rule for subdir invocation for target.
@@ -532,7 +538,7 @@ torneioH: CMakeFiles/torneioH.dir/rule
 # codegen rule for target.
 CMakeFiles/torneioH.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/torneioH.dir/build.make CMakeFiles/torneioH.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=43,44 "Finished codegen for target torneioH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=47,48 "Finished codegen for target torneioH"
 .PHONY : CMakeFiles/torneioH.dir/codegen
 
 # clean rule for target.
@@ -547,7 +553,7 @@ CMakeFiles/torneioH.dir/clean:
 CMakeFiles/tempoH.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempoH.dir/build.make CMakeFiles/tempoH.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempoH.dir/build.make CMakeFiles/tempoH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target tempoH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target tempoH"
 .PHONY : CMakeFiles/tempoH.dir/all
 
 # Build rule for subdir invocation for target.
@@ -564,7 +570,7 @@ tempoH: CMakeFiles/tempoH.dir/rule
 # codegen rule for target.
 CMakeFiles/tempoH.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempoH.dir/build.make CMakeFiles/tempoH.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=37,38 "Finished codegen for target tempoH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=41,42 "Finished codegen for target tempoH"
 .PHONY : CMakeFiles/tempoH.dir/codegen
 
 # clean rule for target.
@@ -579,7 +585,7 @@ CMakeFiles/tempoH.dir/clean:
 CMakeFiles/zero.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zero.dir/build.make CMakeFiles/zero.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zero.dir/build.make CMakeFiles/zero.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target zero"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target zero"
 .PHONY : CMakeFiles/zero.dir/all
 
 # Build rule for subdir invocation for target.
@@ -596,7 +602,7 @@ zero: CMakeFiles/zero.dir/rule
 # codegen rule for target.
 CMakeFiles/zero.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zero.dir/build.make CMakeFiles/zero.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=51,52 "Finished codegen for target zero"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=55,56 "Finished codegen for target zero"
 .PHONY : CMakeFiles/zero.dir/codegen
 
 # clean rule for target.
@@ -611,7 +617,7 @@ CMakeFiles/zero.dir/clean:
 CMakeFiles/zeroH.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zeroH.dir/build.make CMakeFiles/zeroH.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zeroH.dir/build.make CMakeFiles/zeroH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target zeroH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target zeroH"
 .PHONY : CMakeFiles/zeroH.dir/all
 
 # Build rule for subdir invocation for target.
@@ -628,7 +634,7 @@ zeroH: CMakeFiles/zeroH.dir/rule
 # codegen rule for target.
 CMakeFiles/zeroH.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zeroH.dir/build.make CMakeFiles/zeroH.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=53,54 "Finished codegen for target zeroH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=57,58 "Finished codegen for target zeroH"
 .PHONY : CMakeFiles/zeroH.dir/codegen
 
 # clean rule for target.
@@ -643,7 +649,7 @@ CMakeFiles/zeroH.dir/clean:
 CMakeFiles/chuva.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chuva.dir/build.make CMakeFiles/chuva.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chuva.dir/build.make CMakeFiles/chuva.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target chuva"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target chuva"
 .PHONY : CMakeFiles/chuva.dir/all
 
 # Build rule for subdir invocation for target.
@@ -660,7 +666,7 @@ chuva: CMakeFiles/chuva.dir/rule
 # codegen rule for target.
 CMakeFiles/chuva.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chuva.dir/build.make CMakeFiles/chuva.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=5,6 "Finished codegen for target chuva"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=9,10 "Finished codegen for target chuva"
 .PHONY : CMakeFiles/chuva.dir/codegen
 
 # clean rule for target.
@@ -707,7 +713,7 @@ CMakeFiles/baralho.dir/clean:
 CMakeFiles/paciente.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/paciente.dir/build.make CMakeFiles/paciente.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/paciente.dir/build.make CMakeFiles/paciente.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target paciente"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target paciente"
 .PHONY : CMakeFiles/paciente.dir/all
 
 # Build rule for subdir invocation for target.
@@ -724,7 +730,7 @@ paciente: CMakeFiles/paciente.dir/rule
 # codegen rule for target.
 CMakeFiles/paciente.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/paciente.dir/build.make CMakeFiles/paciente.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=27,28 "Finished codegen for target paciente"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=31,32 "Finished codegen for target paciente"
 .PHONY : CMakeFiles/paciente.dir/codegen
 
 # clean rule for target.
@@ -739,7 +745,7 @@ CMakeFiles/paciente.dir/clean:
 CMakeFiles/musica.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/musica.dir/build.make CMakeFiles/musica.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/musica.dir/build.make CMakeFiles/musica.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target musica"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target musica"
 .PHONY : CMakeFiles/musica.dir/all
 
 # Build rule for subdir invocation for target.
@@ -756,7 +762,7 @@ musica: CMakeFiles/musica.dir/rule
 # codegen rule for target.
 CMakeFiles/musica.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/musica.dir/build.make CMakeFiles/musica.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=21,22 "Finished codegen for target musica"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=25,26 "Finished codegen for target musica"
 .PHONY : CMakeFiles/musica.dir/codegen
 
 # clean rule for target.
@@ -771,7 +777,7 @@ CMakeFiles/musica.dir/clean:
 CMakeFiles/rodoviaRecursiva.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rodoviaRecursiva.dir/build.make CMakeFiles/rodoviaRecursiva.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rodoviaRecursiva.dir/build.make CMakeFiles/rodoviaRecursiva.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target rodoviaRecursiva"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target rodoviaRecursiva"
 .PHONY : CMakeFiles/rodoviaRecursiva.dir/all
 
 # Build rule for subdir invocation for target.
@@ -788,7 +794,7 @@ rodoviaRecursiva: CMakeFiles/rodoviaRecursiva.dir/rule
 # codegen rule for target.
 CMakeFiles/rodoviaRecursiva.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rodoviaRecursiva.dir/build.make CMakeFiles/rodoviaRecursiva.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=31,32 "Finished codegen for target rodoviaRecursiva"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=35,36 "Finished codegen for target rodoviaRecursiva"
 .PHONY : CMakeFiles/rodoviaRecursiva.dir/codegen
 
 # clean rule for target.
@@ -803,7 +809,7 @@ CMakeFiles/rodoviaRecursiva.dir/clean:
 CMakeFiles/rodovia.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rodovia.dir/build.make CMakeFiles/rodovia.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rodovia.dir/build.make CMakeFiles/rodovia.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target rodovia"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target rodovia"
 .PHONY : CMakeFiles/rodovia.dir/all
 
 # Build rule for subdir invocation for target.
@@ -820,7 +826,7 @@ rodovia: CMakeFiles/rodovia.dir/rule
 # codegen rule for target.
 CMakeFiles/rodovia.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rodovia.dir/build.make CMakeFiles/rodovia.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=29,30 "Finished codegen for target rodovia"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=33,34 "Finished codegen for target rodovia"
 .PHONY : CMakeFiles/rodovia.dir/codegen
 
 # clean rule for target.
@@ -835,7 +841,7 @@ CMakeFiles/rodovia.dir/clean:
 CMakeFiles/detetive.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/detetive.dir/build.make CMakeFiles/detetive.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/detetive.dir/build.make CMakeFiles/detetive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target detetive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target detetive"
 .PHONY : CMakeFiles/detetive.dir/all
 
 # Build rule for subdir invocation for target.
@@ -852,7 +858,7 @@ detetive: CMakeFiles/detetive.dir/rule
 # codegen rule for target.
 CMakeFiles/detetive.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/detetive.dir/build.make CMakeFiles/detetive.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=11,12 "Finished codegen for target detetive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=15,16 "Finished codegen for target detetive"
 .PHONY : CMakeFiles/detetive.dir/codegen
 
 # clean rule for target.
@@ -867,7 +873,7 @@ CMakeFiles/detetive.dir/clean:
 CMakeFiles/tita.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tita.dir/build.make CMakeFiles/tita.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tita.dir/build.make CMakeFiles/tita.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target tita"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target tita"
 .PHONY : CMakeFiles/tita.dir/all
 
 # Build rule for subdir invocation for target.
@@ -884,7 +890,7 @@ tita: CMakeFiles/tita.dir/rule
 # codegen rule for target.
 CMakeFiles/tita.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tita.dir/build.make CMakeFiles/tita.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=39,40 "Finished codegen for target tita"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=43,44 "Finished codegen for target tita"
 .PHONY : CMakeFiles/tita.dir/codegen
 
 # clean rule for target.
@@ -899,7 +905,7 @@ CMakeFiles/tita.dir/clean:
 CMakeFiles/cloud.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud.dir/build.make CMakeFiles/cloud.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud.dir/build.make CMakeFiles/cloud.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target cloud"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target cloud"
 .PHONY : CMakeFiles/cloud.dir/all
 
 # Build rule for subdir invocation for target.
@@ -916,7 +922,7 @@ cloud: CMakeFiles/cloud.dir/rule
 # codegen rule for target.
 CMakeFiles/cloud.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cloud.dir/build.make CMakeFiles/cloud.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=9,10 "Finished codegen for target cloud"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=13,14 "Finished codegen for target cloud"
 .PHONY : CMakeFiles/cloud.dir/codegen
 
 # clean rule for target.
@@ -931,7 +937,7 @@ CMakeFiles/cloud.dir/clean:
 CMakeFiles/labirintos.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/labirintos.dir/build.make CMakeFiles/labirintos.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/labirintos.dir/build.make CMakeFiles/labirintos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target labirintos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target labirintos"
 .PHONY : CMakeFiles/labirintos.dir/all
 
 # Build rule for subdir invocation for target.
@@ -948,7 +954,7 @@ labirintos: CMakeFiles/labirintos.dir/rule
 # codegen rule for target.
 CMakeFiles/labirintos.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/labirintos.dir/build.make CMakeFiles/labirintos.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=19,20 "Finished codegen for target labirintos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=23,24 "Finished codegen for target labirintos"
 .PHONY : CMakeFiles/labirintos.dir/codegen
 
 # clean rule for target.
@@ -963,7 +969,7 @@ CMakeFiles/labirintos.dir/clean:
 CMakeFiles/vagoes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vagoes.dir/build.make CMakeFiles/vagoes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vagoes.dir/build.make CMakeFiles/vagoes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target vagoes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target vagoes"
 .PHONY : CMakeFiles/vagoes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -980,7 +986,7 @@ vagoes: CMakeFiles/vagoes.dir/rule
 # codegen rule for target.
 CMakeFiles/vagoes.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vagoes.dir/build.make CMakeFiles/vagoes.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=45,46 "Finished codegen for target vagoes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=49,50 "Finished codegen for target vagoes"
 .PHONY : CMakeFiles/vagoes.dir/codegen
 
 # clean rule for target.
@@ -995,7 +1001,7 @@ CMakeFiles/vagoes.dir/clean:
 CMakeFiles/ordena_alunos.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordena_alunos.dir/build.make CMakeFiles/ordena_alunos.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordena_alunos.dir/build.make CMakeFiles/ordena_alunos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target ordena_alunos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target ordena_alunos"
 .PHONY : CMakeFiles/ordena_alunos.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1012,13 +1018,77 @@ ordena_alunos: CMakeFiles/ordena_alunos.dir/rule
 # codegen rule for target.
 CMakeFiles/ordena_alunos.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordena_alunos.dir/build.make CMakeFiles/ordena_alunos.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=25,26 "Finished codegen for target ordena_alunos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=29,30 "Finished codegen for target ordena_alunos"
 .PHONY : CMakeFiles/ordena_alunos.dir/codegen
 
 # clean rule for target.
 CMakeFiles/ordena_alunos.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordena_alunos.dir/build.make CMakeFiles/ordena_alunos.dir/clean
 .PHONY : CMakeFiles/ordena_alunos.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/busca_iterador.dir
+
+# All Build rule for target.
+CMakeFiles/busca_iterador.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_iterador.dir/build.make CMakeFiles/busca_iterador.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_iterador.dir/build.make CMakeFiles/busca_iterador.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target busca_iterador"
+.PHONY : CMakeFiles/busca_iterador.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/busca_iterador.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/busca_iterador.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/busca_iterador.dir/rule
+
+# Convenience name for target.
+busca_iterador: CMakeFiles/busca_iterador.dir/rule
+.PHONY : busca_iterador
+
+# codegen rule for target.
+CMakeFiles/busca_iterador.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_iterador.dir/build.make CMakeFiles/busca_iterador.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=5,6 "Finished codegen for target busca_iterador"
+.PHONY : CMakeFiles/busca_iterador.dir/codegen
+
+# clean rule for target.
+CMakeFiles/busca_iterador.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_iterador.dir/build.make CMakeFiles/busca_iterador.dir/clean
+.PHONY : CMakeFiles/busca_iterador.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/busca_profunda.dir
+
+# All Build rule for target.
+CMakeFiles/busca_profunda.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_profunda.dir/build.make CMakeFiles/busca_profunda.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_profunda.dir/build.make CMakeFiles/busca_profunda.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target busca_profunda"
+.PHONY : CMakeFiles/busca_profunda.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/busca_profunda.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/busca_profunda.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/busca_profunda.dir/rule
+
+# Convenience name for target.
+busca_profunda: CMakeFiles/busca_profunda.dir/rule
+.PHONY : busca_profunda
+
+# codegen rule for target.
+CMakeFiles/busca_profunda.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_profunda.dir/build.make CMakeFiles/busca_profunda.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=7,8 "Finished codegen for target busca_profunda"
+.PHONY : CMakeFiles/busca_profunda.dir/codegen
+
+# clean rule for target.
+CMakeFiles/busca_profunda.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_profunda.dir/build.make CMakeFiles/busca_profunda.dir/clean
+.PHONY : CMakeFiles/busca_profunda.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/busca_iterador.dir/link.d CMakeFiles/busca_iterador.dir/maratonaIF2025/estudosC++/busca_iterador.cpp.o -o busca_iterador

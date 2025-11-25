@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/busca_profunda.dir/link.d CMakeFiles/busca_profunda.dir/maratonaIF2025/estudosC++/busca_profunda.cpp.o -o busca_profunda

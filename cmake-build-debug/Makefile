@@ -467,6 +467,32 @@ ordena_alunos/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ordena_alunos.dir/build.make CMakeFiles/ordena_alunos.dir/build
 .PHONY : ordena_alunos/fast
 
+#=============================================================================
+# Target rules for targets named busca_iterador
+
+# Build rule for target.
+busca_iterador: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 busca_iterador
+.PHONY : busca_iterador
+
+# fast build rule for target.
+busca_iterador/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_iterador.dir/build.make CMakeFiles/busca_iterador.dir/build
+.PHONY : busca_iterador/fast
+
+#=============================================================================
+# Target rules for targets named busca_profunda
+
+# Build rule for target.
+busca_profunda: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 busca_profunda
+.PHONY : busca_profunda
+
+# fast build rule for target.
+busca_profunda/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_profunda.dir/build.make CMakeFiles/busca_profunda.dir/build
+.PHONY : busca_profunda/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -490,6 +516,54 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exercicios_Maratona.dir/build.make CMakeFiles/Exercicios_Maratona.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+maratonaIF2025/estudosC++/busca_iterador.o: maratonaIF2025/estudosC++/busca_iterador.cpp.o
+.PHONY : maratonaIF2025/estudosC++/busca_iterador.o
+
+# target to build an object file
+maratonaIF2025/estudosC++/busca_iterador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_iterador.dir/build.make CMakeFiles/busca_iterador.dir/maratonaIF2025/estudosC++/busca_iterador.cpp.o
+.PHONY : maratonaIF2025/estudosC++/busca_iterador.cpp.o
+
+maratonaIF2025/estudosC++/busca_iterador.i: maratonaIF2025/estudosC++/busca_iterador.cpp.i
+.PHONY : maratonaIF2025/estudosC++/busca_iterador.i
+
+# target to preprocess a source file
+maratonaIF2025/estudosC++/busca_iterador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_iterador.dir/build.make CMakeFiles/busca_iterador.dir/maratonaIF2025/estudosC++/busca_iterador.cpp.i
+.PHONY : maratonaIF2025/estudosC++/busca_iterador.cpp.i
+
+maratonaIF2025/estudosC++/busca_iterador.s: maratonaIF2025/estudosC++/busca_iterador.cpp.s
+.PHONY : maratonaIF2025/estudosC++/busca_iterador.s
+
+# target to generate assembly for a file
+maratonaIF2025/estudosC++/busca_iterador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_iterador.dir/build.make CMakeFiles/busca_iterador.dir/maratonaIF2025/estudosC++/busca_iterador.cpp.s
+.PHONY : maratonaIF2025/estudosC++/busca_iterador.cpp.s
+
+maratonaIF2025/estudosC++/busca_profunda.o: maratonaIF2025/estudosC++/busca_profunda.cpp.o
+.PHONY : maratonaIF2025/estudosC++/busca_profunda.o
+
+# target to build an object file
+maratonaIF2025/estudosC++/busca_profunda.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_profunda.dir/build.make CMakeFiles/busca_profunda.dir/maratonaIF2025/estudosC++/busca_profunda.cpp.o
+.PHONY : maratonaIF2025/estudosC++/busca_profunda.cpp.o
+
+maratonaIF2025/estudosC++/busca_profunda.i: maratonaIF2025/estudosC++/busca_profunda.cpp.i
+.PHONY : maratonaIF2025/estudosC++/busca_profunda.i
+
+# target to preprocess a source file
+maratonaIF2025/estudosC++/busca_profunda.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_profunda.dir/build.make CMakeFiles/busca_profunda.dir/maratonaIF2025/estudosC++/busca_profunda.cpp.i
+.PHONY : maratonaIF2025/estudosC++/busca_profunda.cpp.i
+
+maratonaIF2025/estudosC++/busca_profunda.s: maratonaIF2025/estudosC++/busca_profunda.cpp.s
+.PHONY : maratonaIF2025/estudosC++/busca_profunda.s
+
+# target to generate assembly for a file
+maratonaIF2025/estudosC++/busca_profunda.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/busca_profunda.dir/build.make CMakeFiles/busca_profunda.dir/maratonaIF2025/estudosC++/busca_profunda.cpp.s
+.PHONY : maratonaIF2025/estudosC++/busca_profunda.cpp.s
 
 maratonaIF2025/estudosC++/ordena_alunos.o: maratonaIF2025/estudosC++/ordena_alunos.cpp.o
 .PHONY : maratonaIF2025/estudosC++/ordena_alunos.o
@@ -1125,6 +1199,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Exercicios_Maratona"
 	@echo "... baralho"
+	@echo "... busca_iterador"
+	@echo "... busca_profunda"
 	@echo "... chuva"
 	@echo "... chuvaH"
 	@echo "... cloud"
@@ -1153,6 +1229,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... maratonaIF2025/estudosC++/busca_iterador.o"
+	@echo "... maratonaIF2025/estudosC++/busca_iterador.i"
+	@echo "... maratonaIF2025/estudosC++/busca_iterador.s"
+	@echo "... maratonaIF2025/estudosC++/busca_profunda.o"
+	@echo "... maratonaIF2025/estudosC++/busca_profunda.i"
+	@echo "... maratonaIF2025/estudosC++/busca_profunda.s"
 	@echo "... maratonaIF2025/estudosC++/ordena_alunos.o"
 	@echo "... maratonaIF2025/estudosC++/ordena_alunos.i"
 	@echo "... maratonaIF2025/estudosC++/ordena_alunos.s"
