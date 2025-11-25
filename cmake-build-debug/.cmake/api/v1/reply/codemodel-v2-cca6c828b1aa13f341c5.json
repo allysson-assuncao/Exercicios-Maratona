@@ -1,0 +1,294 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Exercicios_Maratona",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Exercicios_Maratona::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exercicios_Maratona-Debug-fd17e23b5fb9721c775e.json",
+					"name" : "Exercicios_Maratona",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baralho::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baralho-Debug-e52878c808f87dfacfe5.json",
+					"name" : "baralho",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chuva::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chuva-Debug-a00162be212925744566.json",
+					"name" : "chuva",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chuvaH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chuvaH-Debug-44d879ed0f16d9be5bfa.json",
+					"name" : "chuvaH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud-Debug-8b23ded780d30af40e9c.json",
+					"name" : "cloud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "detetive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-detetive-Debug-9b270597afad849624a6.json",
+					"name" : "detetive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "figurinhas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-figurinhas-Debug-f0f29dd6ae34f98f39b1.json",
+					"name" : "figurinhas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "figurinhas-otimizado::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-figurinhas-otimizado-Debug-72b7a1ee349510414880.json",
+					"name" : "figurinhas-otimizado",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jogo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jogo-Debug-e62d501ca11e354934cf.json",
+					"name" : "jogo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "labirintos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labirintos-Debug-e469e9f6482b263daa09.json",
+					"name" : "labirintos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "musica::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-musica-Debug-69b4651fdd19771d1ef5.json",
+					"name" : "musica",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nota::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nota-Debug-affd737f09774f281cff.json",
+					"name" : "nota",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ordena_alunos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ordena_alunos-Debug-7e9b597014c051aebc0f.json",
+					"name" : "ordena_alunos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "paciente::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-paciente-Debug-32240940bf65d8a33758.json",
+					"name" : "paciente",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rodovia::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rodovia-Debug-8924516540d94f634124.json",
+					"name" : "rodovia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rodoviaRecursiva::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rodoviaRecursiva-Debug-a4321b6d14968aa82825.json",
+					"name" : "rodoviaRecursiva",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segredo-cofre::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segredo-cofre-Debug-ecb6fa1aca426b949a70.json",
+					"name" : "segredo-cofre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tempo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tempo-Debug-ef7c1a7ce8b71b1dff85.json",
+					"name" : "tempo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tempoH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tempoH-Debug-8c7c9e0f24307c482d7e.json",
+					"name" : "tempoH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tita::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tita-Debug-24a01493de35b4d3d28b.json",
+					"name" : "tita",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "torneio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-torneio-Debug-caee8ff26b20f6a7dd04.json",
+					"name" : "torneio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "torneioH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-torneioH-Debug-ebd4e77fc3cd403587ed.json",
+					"name" : "torneioH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vagoes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vagoes-Debug-42fef29d51558c7ea3ba.json",
+					"name" : "vagoes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "visita::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-visita-Debug-cadfc2ed4454ffdf27ab.json",
+					"name" : "visita",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wifi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wifi-Debug-eaf8f785e67f7e6fd533.json",
+					"name" : "wifi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zero::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zero-Debug-64197a4da5e0010a1a41.json",
+					"name" : "zero",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zeroH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zeroH-Debug-dfbba31b789fcc9699aa.json",
+					"name" : "zeroH",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug",
+		"source" : "/home/anybody/Documents/Projects/Exercicios-Maratona"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

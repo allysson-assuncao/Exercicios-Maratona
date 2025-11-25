@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/ordena_alunos.dir/link.d CMakeFiles/ordena_alunos.dir/maratonaIF2025/estudosC++/ordena_alunos.cpp.o -o ordena_alunos
