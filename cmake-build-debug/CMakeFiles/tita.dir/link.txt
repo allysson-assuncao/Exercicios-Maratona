@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/tita.dir/Semana7/allysson/tita.cpp.o -o tita
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/tita.dir/link.d CMakeFiles/tita.dir/obi2024/Semana7/allysson/tita.cpp.o -o tita

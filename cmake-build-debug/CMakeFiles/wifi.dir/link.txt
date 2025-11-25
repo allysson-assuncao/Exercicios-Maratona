@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/wifi.dir/Semana2/wifi.cpp.o -o wifi
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/wifi.dir/link.d CMakeFiles/wifi.dir/obi2024/Semana2/wifi.cpp.o -o wifi

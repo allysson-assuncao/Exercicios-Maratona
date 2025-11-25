@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rodovia.dir/Semana6/allysson/rodovia.cpp.o"
-  "CMakeFiles/rodovia.dir/Semana6/allysson/rodovia.cpp.o.d"
+  "CMakeFiles/rodovia.dir/link.d"
+  "CMakeFiles/rodovia.dir/obi2024/Semana6/allysson/rodovia.cpp.o"
+  "CMakeFiles/rodovia.dir/obi2024/Semana6/allysson/rodovia.cpp.o.d"
   "rodovia"
   "rodovia.pdb"
 )

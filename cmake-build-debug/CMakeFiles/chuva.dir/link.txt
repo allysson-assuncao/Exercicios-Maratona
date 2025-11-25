@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/chuva.dir/Semana4/allysson/chuva.cpp.o -o chuva
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/chuva.dir/link.d CMakeFiles/chuva.dir/obi2024/Semana4/allysson/chuva.cpp.o -o chuva

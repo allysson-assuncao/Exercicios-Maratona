@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/anybody/Documents/Projects/Exercicios-Maratona/Semana4/allysson/chuva.cpp" "CMakeFiles/chuva.dir/Semana4/allysson/chuva.cpp.o" "gcc" "CMakeFiles/chuva.dir/Semana4/allysson/chuva.cpp.o.d"
+  "/home/anybody/Documents/Projects/Exercicios-Maratona/obi2024/Semana4/allysson/chuva.cpp" "CMakeFiles/chuva.dir/obi2024/Semana4/allysson/chuva.cpp.o" "gcc" "CMakeFiles/chuva.dir/obi2024/Semana4/allysson/chuva.cpp.o.d"
+  "" "chuva" "gcc" "CMakeFiles/chuva.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/anybody/Documents/Projects/Exercicios-Maratona/Semana6/allysson/rodoviaRecursiva.cpp" "CMakeFiles/rodoviaRecursiva.dir/Semana6/allysson/rodoviaRecursiva.cpp.o" "gcc" "CMakeFiles/rodoviaRecursiva.dir/Semana6/allysson/rodoviaRecursiva.cpp.o.d"
+  "/home/anybody/Documents/Projects/Exercicios-Maratona/obi2024/Semana6/allysson/rodoviaRecursiva.cpp" "CMakeFiles/rodoviaRecursiva.dir/obi2024/Semana6/allysson/rodoviaRecursiva.cpp.o" "gcc" "CMakeFiles/rodoviaRecursiva.dir/obi2024/Semana6/allysson/rodoviaRecursiva.cpp.o.d"
+  "" "rodoviaRecursiva" "gcc" "CMakeFiles/rodoviaRecursiva.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

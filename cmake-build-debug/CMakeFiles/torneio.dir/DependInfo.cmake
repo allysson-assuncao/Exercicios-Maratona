@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/anybody/Documents/Projects/Exercicios-Maratona/Semana5/allysson/torneio.cpp" "CMakeFiles/torneio.dir/Semana5/allysson/torneio.cpp.o" "gcc" "CMakeFiles/torneio.dir/Semana5/allysson/torneio.cpp.o.d"
+  "/home/anybody/Documents/Projects/Exercicios-Maratona/obi2024/Semana5/allysson/torneio.cpp" "CMakeFiles/torneio.dir/obi2024/Semana5/allysson/torneio.cpp.o" "gcc" "CMakeFiles/torneio.dir/obi2024/Semana5/allysson/torneio.cpp.o.d"
+  "" "torneio" "gcc" "CMakeFiles/torneio.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

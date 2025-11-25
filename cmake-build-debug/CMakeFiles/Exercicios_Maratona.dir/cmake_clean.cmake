@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Exercicios_Maratona.dir/link.d"
   "CMakeFiles/Exercicios_Maratona.dir/main.cpp.o"
   "CMakeFiles/Exercicios_Maratona.dir/main.cpp.o.d"
   "Exercicios_Maratona"

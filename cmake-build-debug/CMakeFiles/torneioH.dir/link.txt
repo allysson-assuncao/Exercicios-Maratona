@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/torneioH.dir/Semana5/henrique/torneio.cpp.o -o torneioH
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/torneioH.dir/link.d CMakeFiles/torneioH.dir/obi2024/Semana5/henrique/torneio.cpp.o -o torneioH

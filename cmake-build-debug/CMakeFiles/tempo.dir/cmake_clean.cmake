@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o"
-  "CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o.d"
+  "CMakeFiles/tempo.dir/link.d"
+  "CMakeFiles/tempo.dir/obi2024/Semana5/allysson/tempo.cpp.o"
+  "CMakeFiles/tempo.dir/obi2024/Semana5/allysson/tempo.cpp.o.d"
   "tempo"
   "tempo.pdb"
 )

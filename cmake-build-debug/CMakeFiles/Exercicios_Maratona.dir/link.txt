@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Exercicios_Maratona.dir/main.cpp.o -o Exercicios_Maratona
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/Exercicios_Maratona.dir/link.d CMakeFiles/Exercicios_Maratona.dir/main.cpp.o -o Exercicios_Maratona

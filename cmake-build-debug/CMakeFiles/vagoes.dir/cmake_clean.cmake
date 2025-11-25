@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/vagoes.dir/Semana8/vagoes.cpp.o"
-  "CMakeFiles/vagoes.dir/Semana8/vagoes.cpp.o.d"
+  "CMakeFiles/vagoes.dir/link.d"
+  "CMakeFiles/vagoes.dir/obi2024/Semana8/vagoes.cpp.o"
+  "CMakeFiles/vagoes.dir/obi2024/Semana8/vagoes.cpp.o.d"
   "vagoes"
   "vagoes.pdb"
 )

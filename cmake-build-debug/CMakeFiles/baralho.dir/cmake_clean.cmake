@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/baralho.dir/Semana5/allysson/baralho.cpp.o"
-  "CMakeFiles/baralho.dir/Semana5/allysson/baralho.cpp.o.d"
+  "CMakeFiles/baralho.dir/link.d"
+  "CMakeFiles/baralho.dir/obi2024/Semana5/allysson/baralho.cpp.o"
+  "CMakeFiles/baralho.dir/obi2024/Semana5/allysson/baralho.cpp.o.d"
   "baralho"
   "baralho.pdb"
 )

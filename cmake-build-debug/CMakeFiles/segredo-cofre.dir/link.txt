@@ -1,1 +1,1 @@
-/usr/bin/c++ -g "CMakeFiles/segredo-cofre.dir/Semana1/segredo-cofre.cpp.o" -o segredo-cofre
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/segredo-cofre.dir/link.d "CMakeFiles/segredo-cofre.dir/obi2024/Semana1/segredo-cofre.cpp.o" -o segredo-cofre

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/torneioH.dir/Semana5/henrique/torneio.cpp.o"
-  "CMakeFiles/torneioH.dir/Semana5/henrique/torneio.cpp.o.d"
+  "CMakeFiles/torneioH.dir/link.d"
+  "CMakeFiles/torneioH.dir/obi2024/Semana5/henrique/torneio.cpp.o"
+  "CMakeFiles/torneioH.dir/obi2024/Semana5/henrique/torneio.cpp.o.d"
   "torneioH"
   "torneioH.pdb"
 )

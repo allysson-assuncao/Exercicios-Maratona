@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/visita.dir/Semana3/visita.cpp.o -o visita
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/visita.dir/link.d CMakeFiles/visita.dir/obi2024/Semana3/visita.cpp.o -o visita

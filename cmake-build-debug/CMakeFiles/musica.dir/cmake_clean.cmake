@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/musica.dir/Semana5/allysson/musica.cpp.o"
-  "CMakeFiles/musica.dir/Semana5/allysson/musica.cpp.o.d"
+  "CMakeFiles/musica.dir/link.d"
+  "CMakeFiles/musica.dir/obi2024/Semana5/allysson/musica.cpp.o"
+  "CMakeFiles/musica.dir/obi2024/Semana5/allysson/musica.cpp.o.d"
   "musica"
   "musica.pdb"
 )

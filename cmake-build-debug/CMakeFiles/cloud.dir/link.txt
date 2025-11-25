@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/cloud.dir/Semana7/allysson/cloud.cpp.o -o cloud
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/cloud.dir/link.d CMakeFiles/cloud.dir/obi2024/Semana7/allysson/cloud.cpp.o -o cloud

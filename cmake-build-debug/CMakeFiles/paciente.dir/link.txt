@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/paciente.dir/Semana5/allysson/paciente.cpp.o -o paciente
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/paciente.dir/link.d CMakeFiles/paciente.dir/obi2024/Semana5/allysson/paciente.cpp.o -o paciente

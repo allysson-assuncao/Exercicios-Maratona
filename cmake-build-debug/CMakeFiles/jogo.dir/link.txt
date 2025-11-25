@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/jogo.dir/Semana2/jogo.cpp.o -o jogo
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/jogo.dir/link.d CMakeFiles/jogo.dir/obi2024/Semana2/jogo.cpp.o -o jogo

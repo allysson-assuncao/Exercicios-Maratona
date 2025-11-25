@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/detetive.dir/Semana6/allysson/detetive.cpp.o -o detetive
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/detetive.dir/link.d CMakeFiles/detetive.dir/obi2024/Semana6/allysson/detetive.cpp.o -o detetive

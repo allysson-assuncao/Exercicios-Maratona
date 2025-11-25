@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zeroH.dir/Semana5/henrique/zero.cpp.o"
-  "CMakeFiles/zeroH.dir/Semana5/henrique/zero.cpp.o.d"
+  "CMakeFiles/zeroH.dir/link.d"
+  "CMakeFiles/zeroH.dir/obi2024/Semana5/henrique/zero.cpp.o"
+  "CMakeFiles/zeroH.dir/obi2024/Semana5/henrique/zero.cpp.o.d"
   "zeroH"
   "zeroH.pdb"
 )

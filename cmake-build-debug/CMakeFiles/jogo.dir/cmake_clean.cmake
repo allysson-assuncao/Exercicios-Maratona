@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/jogo.dir/Semana2/jogo.cpp.o"
-  "CMakeFiles/jogo.dir/Semana2/jogo.cpp.o.d"
+  "CMakeFiles/jogo.dir/link.d"
+  "CMakeFiles/jogo.dir/obi2024/Semana2/jogo.cpp.o"
+  "CMakeFiles/jogo.dir/obi2024/Semana2/jogo.cpp.o.d"
   "jogo"
   "jogo.pdb"
 )

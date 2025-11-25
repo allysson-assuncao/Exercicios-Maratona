@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/wifi.dir/Semana2/wifi.cpp.o"
-  "CMakeFiles/wifi.dir/Semana2/wifi.cpp.o.d"
+  "CMakeFiles/wifi.dir/link.d"
+  "CMakeFiles/wifi.dir/obi2024/Semana2/wifi.cpp.o"
+  "CMakeFiles/wifi.dir/obi2024/Semana2/wifi.cpp.o.d"
   "wifi"
   "wifi.pdb"
 )

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/zero.dir/Semana5/allysson/zero.cpp.o -o zero
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/zero.dir/link.d CMakeFiles/zero.dir/obi2024/Semana5/allysson/zero.cpp.o -o zero

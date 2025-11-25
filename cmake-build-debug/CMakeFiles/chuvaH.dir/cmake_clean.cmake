@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/chuvaH.dir/Semana4/henrique/chuva.cpp.o"
-  "CMakeFiles/chuvaH.dir/Semana4/henrique/chuva.cpp.o.d"
+  "CMakeFiles/chuvaH.dir/link.d"
+  "CMakeFiles/chuvaH.dir/obi2024/Semana4/henrique/chuva.cpp.o"
+  "CMakeFiles/chuvaH.dir/obi2024/Semana4/henrique/chuva.cpp.o.d"
   "chuvaH"
   "chuvaH.pdb"
 )

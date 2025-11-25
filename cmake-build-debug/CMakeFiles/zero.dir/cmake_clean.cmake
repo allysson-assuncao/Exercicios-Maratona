@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zero.dir/Semana5/allysson/zero.cpp.o"
-  "CMakeFiles/zero.dir/Semana5/allysson/zero.cpp.o.d"
+  "CMakeFiles/zero.dir/link.d"
+  "CMakeFiles/zero.dir/obi2024/Semana5/allysson/zero.cpp.o"
+  "CMakeFiles/zero.dir/obi2024/Semana5/allysson/zero.cpp.o.d"
   "zero"
   "zero.pdb"
 )

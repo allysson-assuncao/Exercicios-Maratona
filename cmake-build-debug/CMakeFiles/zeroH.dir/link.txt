@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/zeroH.dir/Semana5/henrique/zero.cpp.o -o zeroH
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/zeroH.dir/link.d CMakeFiles/zeroH.dir/obi2024/Semana5/henrique/zero.cpp.o -o zeroH

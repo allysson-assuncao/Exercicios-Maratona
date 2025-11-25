@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/rodovia.dir/Semana6/allysson/rodovia.cpp.o -o rodovia
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/rodovia.dir/link.d CMakeFiles/rodovia.dir/obi2024/Semana6/allysson/rodovia.cpp.o -o rodovia

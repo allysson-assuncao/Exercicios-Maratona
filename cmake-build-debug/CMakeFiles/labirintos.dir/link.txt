@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/labirintos.dir/Semana7/allysson/labirintos.cpp.o -o labirintos
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/labirintos.dir/link.d CMakeFiles/labirintos.dir/obi2024/Semana7/allysson/labirintos.cpp.o -o labirintos

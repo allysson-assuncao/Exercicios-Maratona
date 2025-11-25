@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/figurinhas.dir/Semana1/figurinhas.cpp.o -o figurinhas
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/figurinhas.dir/link.d CMakeFiles/figurinhas.dir/obi2024/Semana1/figurinhas.cpp.o -o figurinhas

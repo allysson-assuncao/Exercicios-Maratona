@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/labirintos.dir/Semana7/allysson/labirintos.cpp.o"
-  "CMakeFiles/labirintos.dir/Semana7/allysson/labirintos.cpp.o.d"
+  "CMakeFiles/labirintos.dir/link.d"
+  "CMakeFiles/labirintos.dir/obi2024/Semana7/allysson/labirintos.cpp.o"
+  "CMakeFiles/labirintos.dir/obi2024/Semana7/allysson/labirintos.cpp.o.d"
   "labirintos"
   "labirintos.pdb"
 )

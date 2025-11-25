@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/rodoviaRecursiva.dir/Semana6/allysson/rodoviaRecursiva.cpp.o -o rodoviaRecursiva
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/rodoviaRecursiva.dir/link.d CMakeFiles/rodoviaRecursiva.dir/obi2024/Semana6/allysson/rodoviaRecursiva.cpp.o -o rodoviaRecursiva

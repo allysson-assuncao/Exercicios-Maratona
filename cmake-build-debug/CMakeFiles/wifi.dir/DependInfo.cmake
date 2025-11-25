@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/anybody/Documents/Projects/Exercicios-Maratona/Semana2/wifi.cpp" "CMakeFiles/wifi.dir/Semana2/wifi.cpp.o" "gcc" "CMakeFiles/wifi.dir/Semana2/wifi.cpp.o.d"
+  "/home/anybody/Documents/Projects/Exercicios-Maratona/obi2024/Semana2/wifi.cpp" "CMakeFiles/wifi.dir/obi2024/Semana2/wifi.cpp.o" "gcc" "CMakeFiles/wifi.dir/obi2024/Semana2/wifi.cpp.o.d"
+  "" "wifi" "gcc" "CMakeFiles/wifi.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/musica.dir/Semana5/allysson/musica.cpp.o -o musica
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/musica.dir/link.d CMakeFiles/musica.dir/obi2024/Semana5/allysson/musica.cpp.o -o musica

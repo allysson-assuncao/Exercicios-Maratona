@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/figurinhas.dir/Semana1/figurinhas.cpp.o"
-  "CMakeFiles/figurinhas.dir/Semana1/figurinhas.cpp.o.d"
+  "CMakeFiles/figurinhas.dir/link.d"
+  "CMakeFiles/figurinhas.dir/obi2024/Semana1/figurinhas.cpp.o"
+  "CMakeFiles/figurinhas.dir/obi2024/Semana1/figurinhas.cpp.o.d"
   "figurinhas"
   "figurinhas.pdb"
 )

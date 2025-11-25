@@ -24,5 +24,6 @@
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/cloud.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/labirintos.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/vagoes.dir
+/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/ordena_alunos.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/rebuild_cache.dir

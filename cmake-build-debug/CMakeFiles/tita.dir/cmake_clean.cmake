@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tita.dir/Semana7/allysson/tita.cpp.o"
-  "CMakeFiles/tita.dir/Semana7/allysson/tita.cpp.o.d"
+  "CMakeFiles/tita.dir/link.d"
+  "CMakeFiles/tita.dir/obi2024/Semana7/allysson/tita.cpp.o"
+  "CMakeFiles/tita.dir/obi2024/Semana7/allysson/tita.cpp.o.d"
   "tita"
   "tita.pdb"
 )

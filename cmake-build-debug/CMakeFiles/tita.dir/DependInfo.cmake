@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/anybody/Documents/Projects/Exercicios-Maratona/Semana7/allysson/tita.cpp" "CMakeFiles/tita.dir/Semana7/allysson/tita.cpp.o" "gcc" "CMakeFiles/tita.dir/Semana7/allysson/tita.cpp.o.d"
+  "/home/anybody/Documents/Projects/Exercicios-Maratona/obi2024/Semana7/allysson/tita.cpp" "CMakeFiles/tita.dir/obi2024/Semana7/allysson/tita.cpp.o" "gcc" "CMakeFiles/tita.dir/obi2024/Semana7/allysson/tita.cpp.o.d"
+  "" "tita" "gcc" "CMakeFiles/tita.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

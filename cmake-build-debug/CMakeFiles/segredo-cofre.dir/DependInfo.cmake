@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/anybody/Documents/Projects/Exercicios-Maratona/Semana1/segredo-cofre.cpp" "CMakeFiles/segredo-cofre.dir/Semana1/segredo-cofre.cpp.o" "gcc" "CMakeFiles/segredo-cofre.dir/Semana1/segredo-cofre.cpp.o.d"
+  "/home/anybody/Documents/Projects/Exercicios-Maratona/obi2024/Semana1/segredo-cofre.cpp" "CMakeFiles/segredo-cofre.dir/obi2024/Semana1/segredo-cofre.cpp.o" "gcc" "CMakeFiles/segredo-cofre.dir/obi2024/Semana1/segredo-cofre.cpp.o.d"
+  "" "segredo-cofre" "gcc" "CMakeFiles/segredo-cofre.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
