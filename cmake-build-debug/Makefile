@@ -506,6 +506,19 @@ testes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/build
 .PHONY : testes/fast
 
+#=============================================================================
+# Target rules for targets named falha
+
+# Build rule for target.
+falha: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 falha
+.PHONY : falha
+
+# fast build rule for target.
+falha/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/falha.dir/build.make CMakeFiles/falha.dir/build
+.PHONY : falha/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -625,6 +638,30 @@ maratonaIF2025/estudosC++/testes.s: maratonaIF2025/estudosC++/testes.cpp.s
 maratonaIF2025/estudosC++/testes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/maratonaIF2025/estudosC++/testes.cpp.s
 .PHONY : maratonaIF2025/estudosC++/testes.cpp.s
+
+maratonaIF2025/resolucoes/falha.o: maratonaIF2025/resolucoes/falha.cpp.o
+.PHONY : maratonaIF2025/resolucoes/falha.o
+
+# target to build an object file
+maratonaIF2025/resolucoes/falha.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/falha.dir/build.make CMakeFiles/falha.dir/maratonaIF2025/resolucoes/falha.cpp.o
+.PHONY : maratonaIF2025/resolucoes/falha.cpp.o
+
+maratonaIF2025/resolucoes/falha.i: maratonaIF2025/resolucoes/falha.cpp.i
+.PHONY : maratonaIF2025/resolucoes/falha.i
+
+# target to preprocess a source file
+maratonaIF2025/resolucoes/falha.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/falha.dir/build.make CMakeFiles/falha.dir/maratonaIF2025/resolucoes/falha.cpp.i
+.PHONY : maratonaIF2025/resolucoes/falha.cpp.i
+
+maratonaIF2025/resolucoes/falha.s: maratonaIF2025/resolucoes/falha.cpp.s
+.PHONY : maratonaIF2025/resolucoes/falha.s
+
+# target to generate assembly for a file
+maratonaIF2025/resolucoes/falha.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/falha.dir/build.make CMakeFiles/falha.dir/maratonaIF2025/resolucoes/falha.cpp.s
+.PHONY : maratonaIF2025/resolucoes/falha.cpp.s
 
 obi2024/Semana1/figurinhas-otimizado.o: obi2024/Semana1/figurinhas-otimizado.cpp.o
 .PHONY : obi2024/Semana1/figurinhas-otimizado.o
@@ -1242,6 +1279,7 @@ help:
 	@echo "... chuvaH"
 	@echo "... cloud"
 	@echo "... detetive"
+	@echo "... falha"
 	@echo "... figurinhas"
 	@echo "... figurinhas-otimizado"
 	@echo "... jogo"
@@ -1279,6 +1317,9 @@ help:
 	@echo "... maratonaIF2025/estudosC++/testes.o"
 	@echo "... maratonaIF2025/estudosC++/testes.i"
 	@echo "... maratonaIF2025/estudosC++/testes.s"
+	@echo "... maratonaIF2025/resolucoes/falha.o"
+	@echo "... maratonaIF2025/resolucoes/falha.i"
+	@echo "... maratonaIF2025/resolucoes/falha.s"
 	@echo "... obi2024/Semana1/figurinhas-otimizado.o"
 	@echo "... obi2024/Semana1/figurinhas-otimizado.i"
 	@echo "... obi2024/Semana1/figurinhas-otimizado.s"

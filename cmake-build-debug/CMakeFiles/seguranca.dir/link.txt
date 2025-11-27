@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/seguranca.dir/link.d CMakeFiles/seguranca.dir/maratonaIF2025/resolucoes/seguranca.cpp.o -o seguranca
