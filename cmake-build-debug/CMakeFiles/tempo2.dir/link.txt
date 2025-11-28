@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/tempo2.dir/link.d CMakeFiles/tempo2.dir/maratonaIF2025/resolucoes/tempo.cpp.o -o tempo2

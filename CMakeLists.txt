@@ -34,4 +34,6 @@ add_executable(ordena_alunos maratonaIF2025/estudosC++/ordena_alunos.cpp)
 add_executable(busca_iterador maratonaIF2025/estudosC++/busca_iterador.cpp)
 add_executable(busca_profunda maratonaIF2025/estudosC++/busca_profunda.cpp)
 add_executable(testes maratonaIF2025/estudosC++/testes.cpp)
-add_executable(falha maratonaIF2025/resolucoes/falha.cpp)
+add_executable(falha maratonaIF2025/resolucoes/falha.cpp
+        maratonaIF2025/resolucoes/tempo.cpp)
+add_executable(tempo2 maratonaIF2025/resolucoes/tempo.cpp)

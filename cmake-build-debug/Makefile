@@ -519,6 +519,19 @@ falha/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/falha.dir/build.make CMakeFiles/falha.dir/build
 .PHONY : falha/fast
 
+#=============================================================================
+# Target rules for targets named tempo2
+
+# Build rule for target.
+tempo2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tempo2
+.PHONY : tempo2
+
+# fast build rule for target.
+tempo2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempo2.dir/build.make CMakeFiles/tempo2.dir/build
+.PHONY : tempo2/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -662,6 +675,33 @@ maratonaIF2025/resolucoes/falha.s: maratonaIF2025/resolucoes/falha.cpp.s
 maratonaIF2025/resolucoes/falha.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/falha.dir/build.make CMakeFiles/falha.dir/maratonaIF2025/resolucoes/falha.cpp.s
 .PHONY : maratonaIF2025/resolucoes/falha.cpp.s
+
+maratonaIF2025/resolucoes/tempo.o: maratonaIF2025/resolucoes/tempo.cpp.o
+.PHONY : maratonaIF2025/resolucoes/tempo.o
+
+# target to build an object file
+maratonaIF2025/resolucoes/tempo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/falha.dir/build.make CMakeFiles/falha.dir/maratonaIF2025/resolucoes/tempo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempo2.dir/build.make CMakeFiles/tempo2.dir/maratonaIF2025/resolucoes/tempo.cpp.o
+.PHONY : maratonaIF2025/resolucoes/tempo.cpp.o
+
+maratonaIF2025/resolucoes/tempo.i: maratonaIF2025/resolucoes/tempo.cpp.i
+.PHONY : maratonaIF2025/resolucoes/tempo.i
+
+# target to preprocess a source file
+maratonaIF2025/resolucoes/tempo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/falha.dir/build.make CMakeFiles/falha.dir/maratonaIF2025/resolucoes/tempo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempo2.dir/build.make CMakeFiles/tempo2.dir/maratonaIF2025/resolucoes/tempo.cpp.i
+.PHONY : maratonaIF2025/resolucoes/tempo.cpp.i
+
+maratonaIF2025/resolucoes/tempo.s: maratonaIF2025/resolucoes/tempo.cpp.s
+.PHONY : maratonaIF2025/resolucoes/tempo.s
+
+# target to generate assembly for a file
+maratonaIF2025/resolucoes/tempo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/falha.dir/build.make CMakeFiles/falha.dir/maratonaIF2025/resolucoes/tempo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempo2.dir/build.make CMakeFiles/tempo2.dir/maratonaIF2025/resolucoes/tempo.cpp.s
+.PHONY : maratonaIF2025/resolucoes/tempo.cpp.s
 
 obi2024/Semana1/figurinhas-otimizado.o: obi2024/Semana1/figurinhas-otimizado.cpp.o
 .PHONY : obi2024/Semana1/figurinhas-otimizado.o
@@ -1292,6 +1332,7 @@ help:
 	@echo "... rodoviaRecursiva"
 	@echo "... segredo-cofre"
 	@echo "... tempo"
+	@echo "... tempo2"
 	@echo "... tempoH"
 	@echo "... testes"
 	@echo "... tita"
@@ -1320,6 +1361,9 @@ help:
 	@echo "... maratonaIF2025/resolucoes/falha.o"
 	@echo "... maratonaIF2025/resolucoes/falha.i"
 	@echo "... maratonaIF2025/resolucoes/falha.s"
+	@echo "... maratonaIF2025/resolucoes/tempo.o"
+	@echo "... maratonaIF2025/resolucoes/tempo.i"
+	@echo "... maratonaIF2025/resolucoes/tempo.s"
 	@echo "... obi2024/Semana1/figurinhas-otimizado.o"
 	@echo "... obi2024/Semana1/figurinhas-otimizado.i"
 	@echo "... obi2024/Semana1/figurinhas-otimizado.s"

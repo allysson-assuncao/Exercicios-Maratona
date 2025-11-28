@@ -29,5 +29,6 @@
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/busca_profunda.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/testes.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/falha.dir
+/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/tempo2.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/rebuild_cache.dir

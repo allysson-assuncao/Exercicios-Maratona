@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/falha.dir/link.d CMakeFiles/falha.dir/maratonaIF2025/resolucoes/falha.cpp.o -o falha
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/falha.dir/link.d CMakeFiles/falha.dir/maratonaIF2025/resolucoes/falha.cpp.o CMakeFiles/falha.dir/maratonaIF2025/resolucoes/tempo.cpp.o -o falha
