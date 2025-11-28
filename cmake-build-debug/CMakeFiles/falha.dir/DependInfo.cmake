@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/anybody/Documents/Projects/Exercicios-Maratona/maratonaIF2025/resolucoes/detetive.cpp" "CMakeFiles/falha.dir/maratonaIF2025/resolucoes/detetive.cpp.o" "gcc" "CMakeFiles/falha.dir/maratonaIF2025/resolucoes/detetive.cpp.o.d"
   "/home/anybody/Documents/Projects/Exercicios-Maratona/maratonaIF2025/resolucoes/falha.cpp" "CMakeFiles/falha.dir/maratonaIF2025/resolucoes/falha.cpp.o" "gcc" "CMakeFiles/falha.dir/maratonaIF2025/resolucoes/falha.cpp.o.d"
   "/home/anybody/Documents/Projects/Exercicios-Maratona/maratonaIF2025/resolucoes/tempo.cpp" "CMakeFiles/falha.dir/maratonaIF2025/resolucoes/tempo.cpp.o" "gcc" "CMakeFiles/falha.dir/maratonaIF2025/resolucoes/tempo.cpp.o.d"
   "" "falha" "gcc" "CMakeFiles/falha.dir/link.d"

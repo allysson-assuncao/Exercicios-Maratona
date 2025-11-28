@@ -5,13 +5,10 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    map<string, int> m;
-    m["ana"] = 10;
-    m["joao"] = 5;
-    cout << m["ana"] << "\n"; // 10
-    if (m.count("x")) cout << 1 << "\n"; // Verifica chave
-    // Iterar
-    for(auto p : m) cout << p.first << ":" << p.second;
+    // Deslocamento (Multiplicação/Divisão por 2)
+    int x = 1 << 5;           // 2^5 = 32
+    int y = 32 >> 4;          // 32/2 = 16
+    cout << x << " " << y << endl;
 
     return 0;
 }

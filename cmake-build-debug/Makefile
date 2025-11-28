@@ -652,6 +652,30 @@ maratonaIF2025/estudosC++/testes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/maratonaIF2025/estudosC++/testes.cpp.s
 .PHONY : maratonaIF2025/estudosC++/testes.cpp.s
 
+maratonaIF2025/resolucoes/detetive.o: maratonaIF2025/resolucoes/detetive.cpp.o
+.PHONY : maratonaIF2025/resolucoes/detetive.o
+
+# target to build an object file
+maratonaIF2025/resolucoes/detetive.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/falha.dir/build.make CMakeFiles/falha.dir/maratonaIF2025/resolucoes/detetive.cpp.o
+.PHONY : maratonaIF2025/resolucoes/detetive.cpp.o
+
+maratonaIF2025/resolucoes/detetive.i: maratonaIF2025/resolucoes/detetive.cpp.i
+.PHONY : maratonaIF2025/resolucoes/detetive.i
+
+# target to preprocess a source file
+maratonaIF2025/resolucoes/detetive.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/falha.dir/build.make CMakeFiles/falha.dir/maratonaIF2025/resolucoes/detetive.cpp.i
+.PHONY : maratonaIF2025/resolucoes/detetive.cpp.i
+
+maratonaIF2025/resolucoes/detetive.s: maratonaIF2025/resolucoes/detetive.cpp.s
+.PHONY : maratonaIF2025/resolucoes/detetive.s
+
+# target to generate assembly for a file
+maratonaIF2025/resolucoes/detetive.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/falha.dir/build.make CMakeFiles/falha.dir/maratonaIF2025/resolucoes/detetive.cpp.s
+.PHONY : maratonaIF2025/resolucoes/detetive.cpp.s
+
 maratonaIF2025/resolucoes/falha.o: maratonaIF2025/resolucoes/falha.cpp.o
 .PHONY : maratonaIF2025/resolucoes/falha.o
 
@@ -1358,6 +1382,9 @@ help:
 	@echo "... maratonaIF2025/estudosC++/testes.o"
 	@echo "... maratonaIF2025/estudosC++/testes.i"
 	@echo "... maratonaIF2025/estudosC++/testes.s"
+	@echo "... maratonaIF2025/resolucoes/detetive.o"
+	@echo "... maratonaIF2025/resolucoes/detetive.i"
+	@echo "... maratonaIF2025/resolucoes/detetive.s"
 	@echo "... maratonaIF2025/resolucoes/falha.o"
 	@echo "... maratonaIF2025/resolucoes/falha.i"
 	@echo "... maratonaIF2025/resolucoes/falha.s"
